@@ -83,6 +83,11 @@ config AMCC_PPC440SPE_ADMA
 	help
 	  Enable support for the AMCC PPC440SPe RAID engines.
 
+config ASPEED_XDMA
+	tristate "Aspeed X-DMA Engine Support"
+	help
+	  Enable support for the Aspeed X-DMA Engine on the AST2500 SoC.
+
 config AT_HDMAC
 	tristate "Atmel AHB DMA support"
 	depends on ARCH_AT91
